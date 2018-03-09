@@ -15,7 +15,7 @@ The seq2seq model has two RNN's, an encoder and a decoder. The encoder reads the
 
 My model uses LSTM cells. An LSTM cell is the building block of my RNN layers and is loosely based on the neurons one would find in a brain. It's main role (in a very simple description) is to remember values over certain arbitrary time intervals.
 
-![LSTM Diagram](https://github.com/sallwright/Seq2Seq-ChatBot/blob/master/LSTM%20Diagram.png)
+![LSTM Diagram](https://github.com/sallwright/TensorFlow_ChatBot/blob/master/img/LSTM%20Diagram.png)
 
 ## How to run on Google Cloud
 Once I have written the Flask app for this chatbot model, then I would be able to deploy this to Google Cloud.
