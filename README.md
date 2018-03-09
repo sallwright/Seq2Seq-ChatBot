@@ -11,7 +11,7 @@ To create this chatbot model I decided to use a Sequence to Sequence (seq2seq) m
 
 The seq2seq model has two RNN's, an encoder and a decoder. The encoder reads the input, word by word, and emits a context which is the essence of the input. Based on this, the decoder generates the output, one word at a time while looking at the context and the previous word during each timestep.
 
-![RNN Diagram](https://github.com/sallwright/Seq2Seq-ChatBot/blob/master/RNN%20Diagram.png)
+![RNN Diagram](https://github.com/sallwright/TensorFlow_ChatBot/blob/master/img/RNN%20Diagram.png)
 
 My model uses LSTM cells. An LSTM cell is the building block of my RNN layers and is loosely based on the neurons one would find in a brain. It's main role (in a very simple description) is to remember values over certain arbitrary time intervals.
 
