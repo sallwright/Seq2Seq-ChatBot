@@ -17,7 +17,10 @@ My model uses LSTM cells. An LSTM cell is the building block of my RNN layers an
 
 ![LSTM Diagram](https://github.com/sallwright/TensorFlow_ChatBot/blob/master/img/LSTM%20Diagram.png)
 
-## How to run on Google Cloud
+## How to run the code
+Download model.ipynb or model.py along with the weights files and run within the command line or an iPython notebook.
+
+## How to deploy on Google Cloud
 Once I have written the Flask app for this chatbot model, then I would be able to deploy this to Google Cloud.
 
 This would be a two step process (assuming that I have all the prerequisites locally).
