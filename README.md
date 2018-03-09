@@ -1,4 +1,4 @@
-# Seq2Seq-ChatBot
+# Building a chatbot using TensorFlow
 I was tasked with create a chatbot for some data within a JSON file. The sub-tasks for this project were:
 1. Read JSON file
 2. Shuffle data and create a train, development, test split
